@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Object Detection API</title>
     <link rel='shortcut icon' href='favicon.ico'/>
@@ -14,7 +13,6 @@
         target = document.getElementById("photo");
         target.src = img;
       }
-
       function WaitDisplay() {
         target = document.getElementById("result");
         target.style.display="none";
@@ -30,7 +28,7 @@
 
     {% from "_formhelpers.html" import render_field %}
 
-    <h1>Object Detection API - Tyler Example</h1>
+    <h1>Object Detection API TESTING</h1>
     <h3>Upload a color photo file.</h3>
     <div>
       <form id="upload" method=post action={{ url_for('post') }} enctype="multipart/form-data">
